@@ -1,0 +1,92 @@
+/* This is the navigation bar part transitions. */
+@media screen and (max-width: 500px) {
+    .navbar-brand span{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .logo-image {
+        display: none;
+    }
+}
+
+/* Body transitions */
+@media screen and (min-width: 500px) {
+    #home {
+        padding-top: 6rem !important;
+        padding-bottom: 6rem !important;
+    }
+}
+
+/* Body transitions in 500px*/
+@media screen and (max-width: 500px) {
+    #home {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68vh;
+    }
+
+    #about {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #about_content{
+        text-align: center;
+        padding: 1rem !important;
+    }
+
+    #portfolio {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #arrow-up{
+        padding-bottom: 2%;
+        padding-right: 2%;
+    }
+}
+
+/* Body transitions in 767px*/
+@media screen and (max-width: 767px) {
+    #home {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    #about_content{
+        text-align: center;
+        padding: 1rem !important;
+    }
+
+    #portfolio {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #contact {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #contacts-icon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #arrow-up{
+        padding-bottom: 2%;
+        padding-right: 2%;
+    }
+}
+
